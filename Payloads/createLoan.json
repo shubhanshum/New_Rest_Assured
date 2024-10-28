@@ -1,0 +1,37 @@
+{
+    "productReferences": {
+        "partnerProductCode": "668" // need to check from backoffice if its created or not
+    },
+    "contractReference": 903, // always unique
+    "status": "ACTIVE",
+    "currency": "DZD",
+    "contractAmount": 3000.10,
+    "outstandingAmount": 20.78,
+    "startDate": "2024-10-05",
+    "duration": "P1Y2M3D",
+    "relationType": "BORROWER", 
+    "partnerCustomerId": "748a166d-4742-45b7-bc7a-ffbe62856db8",
+    "penalty_amount": 1000.56,
+    "remaining_disbursement_amount": 1000.56,
+    "payers": [
+        {
+            "name": "Shubhanshu Mishra",
+            "accountId": "7bba9c78-be95-407c-8499-b5e8769ce50f",
+            "externalAccountId": "7bba9c78-be95-407c-8499-b5e8769ce50f",
+            "externalAccountType": "IBAN"
+        }
+    ],
+    "nextRepaymentAmount": 10,
+    "nextRepaymentDate": "2024-11-28", // use always future date (today/tomorrow scenario)
+    "borrowers": [
+        {
+            "name": "Shubhanshu Mishra" // mandatory to use our own borrower name only
+        }
+    ],
+    "interestRate": {
+        "type": "FIXED",
+        "value": 7
+    },
+    "repaymentFrequency": "MNTH",
+    "endDate": "2025-09-30"
+}
